@@ -52,10 +52,10 @@ export default function CreateAccountScreen() {
     const passwordsMatch = formData.password === formData.confirmPassword;
 
     return (
-        <ScrollView className="flex-1 bg-gray-50">
+        <ScrollView className="flex-1 bg-white">
             <View className="flex-1 min-h-screen">
                 {/* Header Section */}
-                <View className="bg-white pt-16 pb-8 px-6 rounded-b-3xl shadow-sm">
+                <View className="bg-white pt-16 pb-8 px-6">
                     <AppText center size="heading" className="text-7xl font-bold text-gray-900 mb-2">
                         Logo
                     </AppText>
@@ -68,7 +68,7 @@ export default function CreateAccountScreen() {
                 </View>
 
                 {/* Registration Form */}
-                <View className="flex-1 px-1 pt-8">
+                <View className="flex-1 px-1 pt-2">
                     <View className="bg-white rounded-lg p-6 border border-gray-200 mb-6">
                         <Input
                             label="Full Name"
